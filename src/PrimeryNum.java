@@ -8,10 +8,10 @@ Scanner scan =new Scanner(System.in);
 		System.out.println("Enter your Number:");
 		int in = scan.nextInt();
 		if(in > 1) {
-		System.out.println("Number is primery");
+		System.out.println("Number is prime");
 
 	}else{
-		System.out.println("Number is odd");
+		System.out.println("Number is not prime");
 	}
 	}
 
