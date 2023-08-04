@@ -13,9 +13,13 @@ public class Chatterbox {
 		h2.age = 24;
 		h2.Country = "USA";
 		
+		Human h3= new Human();
+		h3.Name ="Aishwarya";
+		h3.age =23;
+		
 		h1.speak("Hello Goodmorning!");
 		h2.speak("Hello Java class");
-		
+		h3.speak("welldone");
 		
 
 	}
