@@ -29,9 +29,7 @@ public class method {
 		number = number / 10;
 	}
 	return sum;
-	method m1 = new method();
-	 int sumValue = m1.sumValue(456);
-	 System.out.println(sumValue);
+	
 }	
 
 }
