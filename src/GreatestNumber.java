@@ -1,19 +1,27 @@
-import java.util.Scanner;
+
 public class GreatestNumber {
 
 	public static void main(String[] args) {
-		Scanner scan = new Scanner(System.in);
-		System.out.println("Enter your Number:");
-		int in = scan.nextInt();
-		int i = 10;
-		int j = 34;
-		int k = 12;
-		if(i<j && i<k) {
-			System.out.println("maximum number");
+		int A = 10;
+		int B = 34;
+		int C = 12;
+		
+		if(A>B) {
+			if(A>C)
+			System.out.println(A + "is maximum num");
+		else 
+			System.out.println(C + "is maximum num");
 		}else {
-			System.out.println("Smallest number");
-		}
-		}
-
+			if(B>C)
+			System.out.println(B + "is maximum num");	
+		else
+			System.out.println(C + "is maximum num");
+}
+			
 	}
+}
+	
+
+
+	
 
