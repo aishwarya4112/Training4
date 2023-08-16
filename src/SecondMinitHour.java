@@ -1,17 +1,18 @@
-
+import java.util.Scanner;
 public class SecondMinitHour {
 
 	public static void main(String[] args) {
-		int i = 86399;
+		Scanner in = new Scanner(System.in);
+		System.out.println("Enter Second");
+		int second = in.nextInt();
 		
-		// h = (sec /3600);
-		// m = (sec -(3600*h))/60;
-		// s = (sec -(3600*h)-(m*60));
 		
-		System.out.println(86399/3600);
-		
-		System.out.println(86399%3600/60);
-		System.out.println(86399%60);
+		int sec = second  % 60;
+		int hour = second / 60;
+		int min = hour % 60;
+		hour = hour /60;
+		System.out.println(hour + ":" + min + ":" +sec ); 
 	}
 
-}
+
+	}
