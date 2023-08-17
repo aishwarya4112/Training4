@@ -8,7 +8,7 @@ public class MaximumNum {
 			   
 			  System.out.print("Enter 1st number:");
 			  int A = in.nextInt();
-			   
+			  
 			  System.out.print("Enter 2nd number:");
 			  int B = in.nextInt();
 			   
