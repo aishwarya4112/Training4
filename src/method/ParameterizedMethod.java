@@ -1,7 +1,7 @@
 package method;
 
 public class ParameterizedMethod {
-	 int sub() {
+	 	int sub() {
 		 int i = 40;
 		 int j = 15;
 		 int res = i -j;
