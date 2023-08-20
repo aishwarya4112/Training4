@@ -8,19 +8,19 @@ public class ParameterizedMethod {
 		 return res;
 	}
 
-	   static void add(int k, int l) {
+	   static int add(int k, int l) {
 		  int a = k;
 		  int b = l;
 		  int res = a + b;
-		 System.out.println("add =" + res);
+		 return res;
 			
 	}
 	  	
 		public static void main(String[] args) {
 				ParameterizedMethod d1 = new ParameterizedMethod();
-				int value = d1.sub(40, 15);
-				System.out.println("Sub =" + value);
-				ParameterizedMethod.add(20, 40);
+				
+				System.out.println(d1.sub(40, 15));
+				System.out.println(ParameterizedMethod.add(40, 20));
 			}
 	
 	}
