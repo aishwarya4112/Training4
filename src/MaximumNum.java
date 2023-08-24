@@ -1,34 +1,32 @@
 import java.util.Scanner;
-import java.util.Scanner;
 public class MaximumNum {
 
 	public static void main(String[] args) {
+	Scanner scan = new Scanner(System.in);
 	
-			  Scanner in = new Scanner(System.in);
-			   
-			  System.out.print("Enter 1st number:");
-			  int A = in.nextInt();
-			  
-			  System.out.print("Enter 2nd number:");
-			  int B = in.nextInt();
-			   
-			  System.out.print("Enter 3rd number:");
-			  int C = in.nextInt();
-			   
-			   
-			  if (A > B)
-			   if (A >C)
-			    System.out.println("Maximum num is"+A);
-			   
-			  if (B > A)
-			   if (B >C)
-			    System.out.println("Maximum num is"+B);
-			   
-			  if (C >A)
-			   if (C > B)
-			    System.out.println("Maximum num is"+C);
+		System.out.println("Enter 1st num");
+		int i = scan.nextInt();
+		
+		System.out.println("Enter 2nd num");
+		int j = scan.nextInt();
+		
+		System.out.println("Enter 3rd num");
+		int k = scan.nextInt();
+			
+			 
+			 	if(i > j && i >k) {
+			 	System.out.println(i + "is maximum num");
+			 }else {
+				 if(j > k && j > i) {
+				 System.out.println(j + "is maximum num");
+			 }else {
+				 if(k > i && k > j) {
+				 System.out.println(k + "is maximum num");
+					 }
+				 }
 			 }
-			}
+	}}
+			
 			
 
 
