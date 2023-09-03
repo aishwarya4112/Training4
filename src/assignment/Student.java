@@ -4,7 +4,7 @@ public class Student {
 	public static String country = "India";
 	private static String name = "Aishwarya";
 	static String age = "23";
-	protected static String course = "selenium";
+	protected static String course = "API";
 		
 		
 	public static void main(String[] args) {
