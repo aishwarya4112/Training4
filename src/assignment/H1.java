@@ -2,7 +2,7 @@ package assignment;
 
 public class H1 {
 		public String name = "Viraj";
-		private String age = "27";
+		private String age = "27";// trying to access it in visibility1 class of same class
 		String country = "US";
 		protected String course = "Automation";
 		
