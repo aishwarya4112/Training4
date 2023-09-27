@@ -9,6 +9,6 @@ package main;
 			return 20;
 			}
 			
-			Main m = new Main();
+			//Main m = new Main();
  	}
 
